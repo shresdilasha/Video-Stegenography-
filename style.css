@@ -7,6 +7,7 @@ nav {
     display: flex;
     font-weight: 800;
     justify-content: space-between;
+    padding-top: 20px;
 
 }
 
@@ -20,21 +21,28 @@ nav {
     padding-right: 50px;
 }
 
-.main {
-    padding-top: 5%;
-}
 
 .top-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80vh;
+
+}
+
+.top-info {
+    width: 40%;
+}
+
+.top-info h3 {
+    font-size: 2em;
 }
 
 .bold {
     font-weight: 900;
 }
 
-button {
+#pink-button {
     background-color: #F9ECEC;
     Width: 160px;
     Height: 52px;
@@ -42,4 +50,78 @@ button {
     Left: 77px;
     border-radius: 14px;
     border: none;
+}
+
+.bottom-part {
+    padding-inline: 10%;
+    width: 80%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bottom-part h3 {
+    font-size: 2em;
+}
+
+.bottom-photo {
+    padding-block: 40px;
+}
+
+.bottom-part p {
+    text-align: center;
+}
+
+.footer {
+    background-color: F9ECEC;
+    height: 80px;
+}
+
+.encode-box {
+    background-color: #F9ECEC;
+    Width: 1235px;
+    Height: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#encode-message {
+    padding-bottom: 30px;
+}
+
+#video-button {
+    background-color: #B9B9B9;
+    border-radius: 14px;
+    border: none;
+    Width: 316px;
+    Height: 60px;
+    Top: 486px;
+    Left: 77px;
+}
+
+#encode-button {
+    Width: 182px;
+    Height: 57px;
+    Top: 692px;
+    Left: 620px;
+    border-radius: 14px;
+    background-color: #C7FFAC;
+    border: none;
+}
+
+.encode-inputs {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    border-radius: 5px;
 }
